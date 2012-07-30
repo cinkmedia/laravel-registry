@@ -23,5 +23,5 @@ return array(
 	 * Database table to use
 	 * Leave blank to use the default 'registry'
 	 */
-	'table' => 'registry',
+	'table' => '',
 );
