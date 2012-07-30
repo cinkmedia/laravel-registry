@@ -56,13 +56,7 @@ class Registry {
 			// set table name to the one in config
 			self::$regTable	= $tableName;
 		}
-		// get the db instance to use from config
-		$dbInstance = strtolower(Config::get('registry::registry.db_instance'));
-		if(!empty($dbInstance))
-		{
-			// set table name to the one in config
-			self::$dbInstance	= $dbInstance;
-		}
+		
 		self::_registry_read();
 	}
 	
