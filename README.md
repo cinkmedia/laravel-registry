@@ -1,5 +1,11 @@
 # Registry Bundle
 
+Registry a database based Registry library for Laravel.
+
+Inspired by Richard Davey's Codeiginiter spark:
+http://www.richarddavey.com
+https://github.com/richarddavey/codeigniter-registry
+
 ## Installation
 
 Create a database table to store registry values
